@@ -34,12 +34,6 @@ matriz_ref_CAR_esq = ones(num_eletr_orig, 1) * ref_CAR_esq;                % mat
 dados_esq = sessao_esq - matriz_ref_CAR_esq;                               % matriz resultante da aplicação do CAR em todos eletrodos = dados - media (16x2048)
 
 
-for pp = 1:size(dados_esq, 1)                                              % normalizacao dos dados
-    
-    %dados_esq(pp,:) = dados_esq(pp,:) - mean(dados_esq(pp,:));
-    %dados_esq(pp,:) = dados_esq(pp,:)/std(dados_esq(pp,:));
-end
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Aquisicao e aplicacao do CAR - mao direita
