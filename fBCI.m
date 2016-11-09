@@ -52,12 +52,6 @@ matriz_ref_CAR_dir = ones(num_eletr_orig, 1) * ref_CAR_dir;
 
 dados_dir = sessao_dir - matriz_ref_CAR_dir;
 
-for pp = 1:size(dados_dir, 1)
-    
-    %dados_dir(pp,:) = dados_dir(pp,:) - mean(dados_dir(pp,:));
-    %dados_dir(pp,:) = dados_dir(pp,:)/std(dados_dir(pp,:));
-end
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Escolha de eletrodos a serem utilizados
