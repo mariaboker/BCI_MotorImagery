@@ -9,7 +9,6 @@ Programa princial: fBCI
 Funções auxiliares:
 
 CAR: aplica filtro CAR nos dados
-
 CARACT_MAO: extração de características por pWelch
 
 TREINAMENTO: treinamento da interface
