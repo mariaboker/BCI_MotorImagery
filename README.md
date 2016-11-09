@@ -1,7 +1,7 @@
 # BCI_MotorImagery
 Interface Cérebro Máquina baseada em Imaginação do Movimento implementada em MATLAB.
    
-Maria Bolina Kersanach                        
+Maria Bolina Kersanach (mmboker@gmail.com)                       
 Romis R F Attux                           
                                                                         
 Programa princial: fBCI
