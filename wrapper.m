@@ -68,8 +68,7 @@ function [eletrselec, erros] = WRAPPERS(a)
         escolhido = ID(melhor.eletr)
 
     end
-    
-    % ESSE PLOT E UM REMENDO - ROMIS
+   
     
     figure(3)
     plot(erros,'o')
